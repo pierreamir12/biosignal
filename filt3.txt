@@ -1,0 +1,6 @@
+y = bandpass(x,wpass)
+y = bandpass(x,fpass,fs)
+y = bandpass(xt,fpass)
+y = bandpass(___,Name,Value)
+[y,d] = bandpass(___)
+bandpass(___)

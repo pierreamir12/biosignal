@@ -1,0 +1,13 @@
+%Simple Low-Pass Filter
+b = 1;
+a = [1 -1];
+
+%Apply Filter
+s3_f = filter(b,a,s3);
+
+y = lowpass(x,wpass)
+y = lowpass(x,fpass,fs)
+y = lowpass(xt,fpass)
+y = lowpass(___,Name,Value)
+[y,d] = lowpass(___)
+lowpass(___)

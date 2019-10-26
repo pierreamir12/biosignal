@@ -1,0 +1,6 @@
+y = highpass(x,wpass)
+y = highpass(x,fpass,fs)
+y = highpass(xt,fpass)
+y = highpass(___,Name,Value)
+[y,d] = highpass(___)
+highpass(___)
